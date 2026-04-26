@@ -63,3 +63,8 @@
 ### Añadido
 - Cálculo de porcentaje de infracciones en la fecha 1932-01-01
 - Cálculo de porcentaje de infracciones a la hora 00:00
+
+## [Día 7] - 2026-04-23
+
+### Added
+- Conclusión del dataset
