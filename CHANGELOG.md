@@ -16,3 +16,29 @@
 - Muestra de las 5 primeras filas.
 - Análisis de tipos de datos
 - Contar los valores nulos.
+
+## [Día 3] - 2026-04-23
+
+### Añadido
+- Normalización de fechas a formato 'YYYY-MM-DD', reemplazando fechas
+  inválidas por `1932-01-01`.
+
+- Normalización de horas a formato 24 hs, reemplazando valores
+  inválidos por `00:00`.
+
+- Normalización de ubicaciones: eliminación de caracteres especiales
+  y conversión a mayúsculas.
+
+- Eliminación de filas con valores relevantes para las multas que
+  se encuentran vacías.
+
+- Detección y eliminación de outliers.
+
+- Creación de la columna `exceso_velocidad_real` y su cálculo.
+
+- Creación de la columna `exceso_velocidad` y su cálculo.
+
+- Eliminación de filas sin infracciones según el exceso de velocidad.
+
+- Guardado del dataset limpio en
+  `urban_flow/data/interim/speeding_fines.csv`.csv`
