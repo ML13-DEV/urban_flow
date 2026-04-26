@@ -42,3 +42,9 @@
 
 - Guardado del dataset limpio en
   `urban_flow/data/interim/speeding_fines.csv`.csv`
+
+## [Día 4] - 2026-04-23
+
+### Añadido
+- Definición de clase FineAnalyzer
+- Prueba de métodos de la clase FineAnalyzer
