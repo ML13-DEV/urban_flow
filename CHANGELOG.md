@@ -48,3 +48,12 @@
 ### Añadido
 - Definición de clase FineAnalyzer
 - Prueba de métodos de la clase FineAnalyzer
+
+## [Día 5] - 2026-04-23
+
+### Añadido
+- Gráfico de patentes
+- Gráfico de horas
+- Gráfico de meses
+- Gráfico de horas medianoche
+- Gráfico de fecha medianoche
