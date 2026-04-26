@@ -57,3 +57,9 @@
 - Gráfico de meses
 - Gráfico de horas medianoche
 - Gráfico de fecha medianoche
+
+## [Día 6] - 2026-04-23
+
+### Añadido
+- Cálculo de porcentaje de infracciones en la fecha 1932-01-01
+- Cálculo de porcentaje de infracciones a la hora 00:00
