@@ -66,5 +66,5 @@
 
 ## [Día 7] - 2026-04-23
 
-### Added
+### Añadido
 - Conclusión del dataset
