@@ -76,3 +76,11 @@
 - Creación de la rama 'Sprint_2' y cambio a la misma
 - Descarga del dataset de imágenese de patentes y almacenado
 en 'urban_flow/data/raw/imgs'
+
+## Día 2
+
+### Añadido
+- Clasificaión de imágenes según el tipo de imagen y
+almacenado en json urban_flow/data/interim/group_images.json.
+- Creación de la función mostrar_reporte_imagenes para mostrar 4 imágenes
+aleatorias de ambas categorías en una matriz de 4x2.
