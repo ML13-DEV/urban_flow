@@ -68,3 +68,11 @@
 
 ### Añadido
 - Conclusión del dataset
+# Sprint 2
+
+## Día 1
+
+### Añadido
+- Creación de la rama 'Sprint_2' y cambio a la misma
+- Descarga del dataset de imágenese de patentes y almacenado
+en 'urban_flow/data/raw/imgs'
