@@ -97,3 +97,13 @@ según la clasificación previa.
 - Detección de bordes sobre las imágenes suavizadas para intentar detectar
 las patentes y almacenado en
 'urban_flow/data/interim/imgs/03_03_canny' según la clasificación previa.
+
+## Día 4
+
+### Añadido
+- Definción de la función extraer_patente para extraer las patentes de las imágenes.
+- Definción de la función vincular_imagenes_multas para vincular las patentes
+extraídas con los registros existentes.
+- Definición de nuevas columnas 'imagen', 'patente_imagen' y 'ratio' en el
+dataframe de multas.
+- Guardado del archivo final en la carpeta processed.
