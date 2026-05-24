@@ -107,3 +107,8 @@ extraídas con los registros existentes.
 - Definición de nuevas columnas 'imagen', 'patente_imagen' y 'ratio' en el
 dataframe de multas.
 - Guardado del archivo final en la carpeta processed.
+
+## Día 5
+
+### Añadido
+- Cálculo de métricas del dataset final.
