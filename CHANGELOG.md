@@ -112,3 +112,8 @@ dataframe de multas.
 
 ### Añadido
 - Cálculo de métricas del dataset final.
+
+## Día 6
+
+### Añadido
+- Conclusión del dataset.

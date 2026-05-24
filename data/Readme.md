@@ -34,3 +34,15 @@ Además, se observa que el mes 1 (enero) se convierte en un outlier,
 representando un 19.61% del total de multas. De igual forma, el año
 1932 también se presenta como outlier, concentrando un 26.42% de las
 multas.
+A partir del análisis del dataset, se observa una falta de información importante
+al contar con solo 108 imágenes para un universo de más de 1800 registros de infracciones.
+Sin embargo, un hallazgo clave es que este grupo reducido de fotos concentra la actividad de
+apenas 19 vehículos particulares, identificados como los mayores infractores.
+Tras procesar la información mediante la función de extracción de patentes,
+se logró un impacto significativo al asociar una identificación vehicular al 41,01% del total de
+las multas registradas, quedando un 58,99% restante sin resolver debido a la limitación del
+material fotográfico de origen. Finalmente, cruzando estos resultados con el estado financiero del
+sistema, se detectó que el 75,05% de las multas totales se encuentran pendientes de pago debido a
+apelaciones, errores o deuda, gracias al proceso de reconocimiento implementado, se logró
+recuperar la identidad del 30,61% de este grupo de infractores,lo que permite
+localizar de forma directa a los responsables y efectivizar el cobro de la deuda.
