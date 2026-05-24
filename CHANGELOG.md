@@ -84,3 +84,16 @@ en 'urban_flow/data/raw/imgs'
 almacenado en json urban_flow/data/interim/group_images.json.
 - Creación de la función mostrar_reporte_imagenes para mostrar 4 imágenes
 aleatorias de ambas categorías en una matriz de 4x2.
+## Día 3
+
+### Añadido
+- Conversión a escala de grises de las imágenes originales y
+almacenado en
+'urban_flow/data/interim/imgs/03_01_gray_scale/plates' y
+'urban_flow/data/interim/imgs/03_01_gray_scale/completes',
+según la clasificación previa.
+- Suavizado de las imágenes en escala de grises y almacenamiento en
+'urban_flow/data/interim/imgs/03_02_blur' según la clasificación previa.
+- Detección de bordes sobre las imágenes suavizadas para intentar detectar
+las patentes y almacenado en
+'urban_flow/data/interim/imgs/03_03_canny' según la clasificación previa.
