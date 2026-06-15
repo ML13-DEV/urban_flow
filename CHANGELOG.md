@@ -149,3 +149,9 @@ opcional).
 ### Añadido
 - Implementación de la función procesar_fila_csv para mapear cada fila
 del CSV al modelo de dominio.
+
+## Día 5
+
+### Añadido
+- Diseño del modelo relacional con SQLAlchemy ORM: VehiculoDB, RadarDB,
+EvidenciaDB y MultaDB, con claves primarias, relaciones y __repr__.
