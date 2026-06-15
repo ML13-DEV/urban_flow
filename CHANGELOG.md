@@ -126,3 +126,11 @@ dataframe de multas.
 a la misma.
 - Verificación de acceso a todos los datasets generados.
 - Actualización de README.md con el objetivo y contexto del Sprint.
+
+## Día 2
+
+### Añadido
+- Inicialización de DVC y configuración de un remote local en
+'/content/remote_dvc'.
+- Migración de los archivos binarios de git a DVC: imágenes de patentes,
+dataset procesado e imágenes procesadas del Sprint 2.
