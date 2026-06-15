@@ -155,3 +155,10 @@ del CSV al modelo de dominio.
 ### Añadido
 - Diseño del modelo relacional con SQLAlchemy ORM: VehiculoDB, RadarDB,
 EvidenciaDB y MultaDB, con claves primarias, relaciones y __repr__.
+
+## Día 6
+
+### Añadido
+- Creación de la base de datos 'transito' (SQLite) y migración de los
+datos desde 'speeding_fines_image.csv'.
+- Versionado de la base de datos con DVC.
