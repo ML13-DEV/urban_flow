@@ -143,3 +143,9 @@ Multa.
 - Definición de las relaciones entre entidades (un vehículo y un radar
 pueden tener muchas multas; una multa puede tener una evidencia
 opcional).
+
+## Día 4
+
+### Añadido
+- Implementación de la función procesar_fila_csv para mapear cada fila
+del CSV al modelo de dominio.
