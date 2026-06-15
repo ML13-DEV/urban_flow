@@ -46,3 +46,24 @@ sistema, se detectó que el 75,05% de las multas totales se encuentran pendiente
 apelaciones, errores o deuda, gracias al proceso de reconocimiento implementado, se logró
 recuperar la identidad del 30,61% de este grupo de infractores,lo que permite
 localizar de forma directa a los responsables y efectivizar el cobro de la deuda.
+
+## Sprint 3
+
+En este sprint se profesionalizó la solución del sistema de control
+de infracciones de tránsito de Vaalserberg incorporando:
+
+- **Persistencia relacional**: Los datos de multas, vehículos, radares
+  y evidencias se migraron a una base de datos SQLite gestionada
+  mediante el ORM SQLAlchemy, lo que permitió consultas estructuradas
+  y relaciones entre entidades con integridad referencial.
+
+- **Control de versiones de datos (DVC)**: Los archivos binarios
+  (imágenes de patentes y datasets procesados) fueron desvinculados
+  de git y trackeados con DVC apuntando a un remote local, siguiendo
+  las mejores prácticas para repositorios de machine learning.
+
+- **Base de datos vectorial**: Se integró ChromaDB con embeddings
+  generados por OpenCLIP (ViT-B-32), habilitando búsquedas semánticas
+  por imagen de patente. Esto demuestra la convergencia entre sistemas
+  relacionales y vectoriales para resolver problemas reales de
+  reconocimiento visual en sistemas de control de tránsito.

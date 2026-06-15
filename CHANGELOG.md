@@ -182,3 +182,9 @@ y embeddings generados con OpenCLIP (ViT-B-32).
 ### Añadido
 - Implementación de la función buscar_patente_imagen para recuperar los
 datos del vehículo por similitud vectorial en ChromaDB.
+
+## Día 10
+
+### Añadido
+- Redacción de la conclusión del Sprint 3 y actualización de
+data/Readme.md.
