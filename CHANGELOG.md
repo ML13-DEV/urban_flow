@@ -134,3 +134,12 @@ a la misma.
 '/content/remote_dvc'.
 - Migración de los archivos binarios de git a DVC: imágenes de patentes,
 dataset procesado e imágenes procesadas del Sprint 2.
+
+## Día 3
+
+### Añadido
+- Diseño del modelo lógico de dominio: Vehiculo, Radar, Evidencia y
+Multa.
+- Definición de las relaciones entre entidades (un vehículo y un radar
+pueden tener muchas multas; una multa puede tener una evidencia
+opcional).
