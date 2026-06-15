@@ -117,3 +117,12 @@ dataframe de multas.
 
 ### Añadido
 - Conclusión del dataset.
+# Sprint 3
+
+## Día 1
+
+### Añadido
+- Inicialización de la rama 'Sprint_3' a partir de 'Sprint_2' y cambio
+a la misma.
+- Verificación de acceso a todos los datasets generados.
+- Actualización de README.md con el objetivo y contexto del Sprint.

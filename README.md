@@ -44,3 +44,16 @@ Para esto vamos a necesitar los siguientes dataset:
 - [Dataset de imágenes](
 https://github.com/HAD141/datasets/raw/refs/heads/main/TrabajosPracticos/urban_flow/urban_flow_plates.zip)
 https://github.com/HAD141/datasets/raw/refs/heads/main/TrabajosPracticos/urban_flow/urban_flow_plates.zip
+
+## Sprint 3
+
+### Objetivo
+Migrar la solución a una arquitectura de base de datos relacional
+(SQLAlchemy) e incorporar una base de datos vectorial (ChromaDB)
+para búsquedas semánticas por imagen de patente.
+
+### Introducción y contexto
+El sistema de control de infracciones de tránsito ha crecido en
+volumen y complejidad. Se profesionaliza la solución con persistencia
+relacional, ORM, control de versiones de datos (DVC) y búsquedas
+avanzadas por similitud vectorial.
