@@ -176,3 +176,9 @@ reincidentes y porcentaje de evidencia visual).
 - Creación de la base de datos vectorial 'patente_vectorial' con ChromaDB
 y embeddings generados con OpenCLIP (ViT-B-32).
 - Persistencia de la base vectorial y versionado con DVC.
+
+## Día 9
+
+### Añadido
+- Implementación de la función buscar_patente_imagen para recuperar los
+datos del vehículo por similitud vectorial en ChromaDB.
