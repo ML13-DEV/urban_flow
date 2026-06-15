@@ -162,3 +162,10 @@ EvidenciaDB y MultaDB, con claves primarias, relaciones y __repr__.
 - Creación de la base de datos 'transito' (SQLite) y migración de los
 datos desde 'speeding_fines_image.csv'.
 - Versionado de la base de datos con DVC.
+
+## Día 7
+
+### Añadido
+- Implementación de las consultas SQLAlchemy sobre la base de datos
+'transito' (top de patentes, multas sin evidencia, radares más activos,
+reincidentes y porcentaje de evidencia visual).
