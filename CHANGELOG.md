@@ -169,3 +169,10 @@ datos desde 'speeding_fines_image.csv'.
 - Implementación de las consultas SQLAlchemy sobre la base de datos
 'transito' (top de patentes, multas sin evidencia, radares más activos,
 reincidentes y porcentaje de evidencia visual).
+
+## Día 8
+
+### Añadido
+- Creación de la base de datos vectorial 'patente_vectorial' con ChromaDB
+y embeddings generados con OpenCLIP (ViT-B-32).
+- Persistencia de la base vectorial y versionado con DVC.
